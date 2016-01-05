@@ -1,0 +1,204 @@
+.container {
+	min-width: 900px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    background: #DBE6EC;
+}
+
+.header {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-image:url("images/banner.jpg");
+}
+
+.footer {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+.content {
+	/*display: inline-flex;*/
+	width: 100%;
+	height: 100%;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+h1.headerText {
+    font-size: 40px;
+    font-style: oblique;
+    font-family: 'Lato', serif;
+    text-align: center;
+    background-color: white;
+}
+
+/* Left Side */
+.leftSideBar {
+/*	width: 50%;*/
+	vertical-align: top;
+	/*max-width: 400px;*/
+	min-width: 320px;
+    background: #F5F5F5;
+	text-align: center;
+}
+
+.imageDiv {
+	width: 95%;
+    background: #F5F5F5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	min-width: 100%;
+	margin-bottom: 2.5%;
+}
+
+.adZone {
+	width: 304px;
+	height: 153.297px;
+	margin: 2.5%;
+	text-align: center;
+	background: white;
+}
+
+/* Right Side */
+.rightSideBar {
+	vertical-align: top;
+	background: #F5F5F5;
+	width: 100%;
+}
+
+.nav {
+	background: purple;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+}
+
+.homeDiv {
+	border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 0px;
+	background: white;
+	text-align: center;
+	width: 50%;
+}
+
+.oldDiv {
+	border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 2px;
+    border-right-width: 0px;
+    border-left-width: 2px;
+	background: white;
+	text-align: center;
+	width: 50%;
+}
+
+.infoDiv {
+	padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.infoDiv#text{
+    font-size: 20px;
+}
+
+.infoDiv.genre {
+	text-align: left;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.infoDiv.genre.type {
+	padding-left: 0px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+.bold {
+	text-decoration: underline;
+	font-weight: 900;
+}
+
+button {
+	width: 200px;
+	height: 100px;
+}
+/*
+.links {
+	padding-left: 20px;
+}*/
+
+
+/* Menu Bar */
+.testmenu {
+    width: 100%;
+}
+
+.menu-items {
+    width: 100%;
+    list-style-type: none;
+    background: #98bf21;
+    margin: 0;
+    padding: 2% 0 2% 0;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline;
+    width: auto;
+}
+
+.menu-item a {
+    width: 100%;
+    padding: 2%;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #98bf21;
+    font-family: Arial, Helvetica;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-item.active a{
+	background-color: #7A991A;
+    text-decoration: none;
+}
+
+.menu-item a:focus, .menu-item a:hover{
+    background-color:#7A991A;
+    text-decoration: none;
+}
+
+td.active {
+    background-color: #DDD;
+}
+
+/* Button */
